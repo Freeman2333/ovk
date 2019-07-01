@@ -3,8 +3,9 @@
   "version": "4.0.0",
   "description": "OptimizedHTML 4 - Start HTML Template",
   "main": "index.js",
+  "homepage": "https://freeman2333.github.io/ovk",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d ./"
   },
   "author": "WebDesign Master",
   "license": "ISC",
@@ -20,5 +21,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
